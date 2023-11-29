@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background:linear-gradient(#44bcb4, #26747E)
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 9px;
+    color: #fff; /* Warna teks putih */
+}
+
+main {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    width:98%; /* Adjust the width as needed */
+    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-bottom: 170px; /* Adjust the bottom margin as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: auto;
+}
+
+
+nav {
+    background: linear-gradient(#44bcb4, #26747E);
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px; /* Adjust this value to control the spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Adjust the color as needed */
+}
+
+nav a:hover {
+    color: #44bcb4; /* Change the color on hover as needed */
+}
+
+nav .icon {
+    width: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color:#e8e8e8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 50px !important;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    background-color: #dfdcd8;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #44bcb4;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #44bcb4;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #e1e1e1;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+    color: #333;
+}

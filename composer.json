@@ -1,0 +1,14 @@
+{
+    "name": "pbwl/tugas1",
+    "description": "tugas1 pbwl",
+    "type": "tugas1",
+    "require": {
+        "php": "*"
+    },
+    "authors": [
+        {
+            "name": "sucisyahputri25",
+            "email": "151736891+sucisyahputri25@users.noreply.github.com"
+        }
+    ]
+}
